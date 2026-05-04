@@ -1,0 +1,75 @@
+.categoria{
+    background-color: #0000008a;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.categoria h1{
+    color: #e9d5d5e3;
+    text-transform: uppercase;
+    font-size: 36px;
+}
+
+.categoria h1::after{
+    content: "";
+    width: 131px;
+    height: 14px;
+    display: block;
+    margin: 0 auto;
+}
+
+.categoria p{
+    color: white;
+    font-size: 14px;
+    margin-bottom: 40px;
+}
+
+.tarjeta{
+    background-color: white;
+    box-shadow: 0px 5px 25px rgb(0 0 0 / 10%);
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 35px;
+    padding: 20px 20px 25px 20px;
+}
+
+.tarjeta figure{
+    position: relative;
+}
+
+.tarjeta .hidden-img{
+    overflow: hidden;
+}
+
+.tarjeta img{
+    width: 100%;
+    transition: all .5s ease-out;
+}
+
+.tarjeta img:hover{
+    transform: scale(1.1);
+}
+
+.tarjeta a{
+    background-color: rgb(236, 52, 82);
+    color: white;
+    padding: 7px 15px;
+    min-width: 150px;
+    display: inline-table;
+    border-radius: 25px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    border: 1px solid rgb(236, 52, 82);
+    position: absolute;
+    bottom: -20px;
+    right: 0;
+    left: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.tarjeta a:hover{
+    background-color: white;
+    color: rgb(236, 52, 82);
+}
